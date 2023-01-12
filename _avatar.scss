@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+
+    .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid white;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    p {
+    color: whitesmoke;
+    margin: 0;
+    }
+
+    .p-div {
+    background: grey;
+    width: 100%;
+    }
+
+    .name{
+        font-weight: 500;
+    }
+
+    .exp {
+        font-size: 16px;
+    }
+
+    h3 {
+        color: whitesmoke;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .poke-stats {
+        margin: 0 auto;
+        width: 300px;
+    }
+}
